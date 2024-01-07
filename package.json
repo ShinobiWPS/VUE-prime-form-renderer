@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "cross-env DEBUG=0 vite",
+    "dev": "cross-env DEBUG=0 vite --open",
     "build": "vite build",
     "preview": "vite build && vite preview",
     "start": "pnpm dev & wait-on tcp:3000 -v",
@@ -26,6 +26,7 @@
   "dependencies": {
     "@vueuse/head": "2.0.0",
     "pinia": "2.1.7",
+    "primevue": "3.45.0",
     "vue": "3.4.0",
     "vue-router": "4.2.5"
   },
@@ -56,7 +57,7 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-security": "2.1.0",
+    "eslint-plugin-security": "1.7.1",
     "eslint-plugin-vue": "9.19.2",
     "husky": "8.0.3",
     "jsdom": "23.0.1",
