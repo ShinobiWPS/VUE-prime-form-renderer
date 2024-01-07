@@ -17,8 +17,3 @@ etc..
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
 - Vitest unit + component tests with code coverage
-- (⚠️NOT TESTED) GitHub workflows
-  - Renovatebot for keeping up with dependencies
-  - Automated unit + component tests
-  - Automated e2e tests
-  - Coverage reporting in PR comments
