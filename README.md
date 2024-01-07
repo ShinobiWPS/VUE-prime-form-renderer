@@ -1,6 +1,21 @@
 # VuePrime form renderer
 
-etc..
+## TO-DO
+
+- Add route to form renderer
+- Make async request to get the form schema
+- Fornisci istruzioni su come avviare il progetto localmente, e se possibile, anche in staging e produzione.
+  (Intendo anche solo:
+  DEV
+  npm run dev OR yarn run dev
+
+PROD
+npm run prod or yarn run prod)
+
+- Elenco nel readme la posizione dei file e la struttura dei file che hai creato.
+- Specifica i comandi per avviare i test sia in locale che in staging.
+- clean package.json
+- "i could have used Yup if rules were in the schema"
 
 ## Features
 
