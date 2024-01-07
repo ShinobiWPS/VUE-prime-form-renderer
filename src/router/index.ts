@@ -1,28 +1,33 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
 
-import IndexPage from '@/pages/IndexPage.vue'
-import DemoPage from '@/pages/DemoPage.vue'
+import IndexPage from "@/pages/IndexPage.vue";
+import FormPage from "@/pages/FormPage.vue";
+
+export enum RoutesLabels {
+  ROOT = "/",
+  FORM = "/form",
+}
 
 const routes = [
   {
-    path: '/',
+    path: RoutesLabels.ROOT,
     component: IndexPage,
     meta: {
-      title: 'Vue3',
+      title: "Home",
     },
   },
   {
-    path: '/demo/',
-    component: DemoPage,
+    path: RoutesLabels.FORM,
+    component: FormPage,
     meta: {
-      title: 'Demo title',
+      title: "Form renderer",
     },
   },
-]
+];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
-})
+});
 
-export default router
+export default router;
