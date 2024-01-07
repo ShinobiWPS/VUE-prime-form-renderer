@@ -1,21 +1,26 @@
-# VuePrime form renderer
+# PrimeVue form renderer
 
 ## TO-DO
 
-- Add route to form renderer
 - Make async request to get the form schema
-- Fornisci istruzioni su come avviare il progetto localmente, e se possibile, anche in staging e produzione.
-  (Intendo anche solo:
-  DEV
-  npm run dev OR yarn run dev
+- List in the readme the location of the files and the structure of the files you created.
+- "I could have used Yup if rules were in the schema"
 
-PROD
-npm run prod or yarn run prod)
+## Setup
 
-- Elenco nel readme la posizione dei file e la struttura dei file che hai creato.
-- Specifica i comandi per avviare i test sia in locale che in staging.
-- clean package.json
-- "i could have used Yup if rules were in the schema"
+- `pnpm i`
+
+## Test Scripts
+
+- `"test": "vitest"`: This script runs the tests using Vitest, a modern JavaScript testing framework.
+
+- `"coverage": "vitest run --coverage"`: This script runs the tests and generates a coverage report. The `--coverage` flag tells Vitest to measure how much of your code is covered by the tests.
+
+- `"test-e2e": "playwright test --headed"`: This script runs end-to-end tests using Playwright. The `--headed` flag makes the browser visible during the tests.
+
+- `"test:ci": "vitest run --coverage"`: This script is used in continuous integration environments. It runs the tests and generates a coverage report, just like the `coverage` script.
+
+- `"test:ci-e2e": "playwright test"`: This script is used in continuous integration environments for running end-to-end tests. Unlike the `test-e2e` script, the browser is not visible during the tests.
 
 ## Features
 
