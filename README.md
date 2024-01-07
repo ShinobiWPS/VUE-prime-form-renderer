@@ -1,6 +1,21 @@
 # VuePrime form renderer
 
-etc..
+## TO-DO
+
+- Add route to form renderer
+- Make async request to get the form schema
+- Fornisci istruzioni su come avviare il progetto localmente, e se possibile, anche in staging e produzione.
+  (Intendo anche solo:
+  DEV
+  npm run dev OR yarn run dev
+
+PROD
+npm run prod or yarn run prod)
+
+- Elenco nel readme la posizione dei file e la struttura dei file che hai creato.
+- Specifica i comandi per avviare i test sia in locale che in staging.
+- clean package.json
+- "i could have used Yup if rules were in the schema"
 
 ## Features
 
@@ -17,8 +32,3 @@ etc..
   - `VITE_APP_VERSION` is read from `package.json` version at build time
   - `VITE_APP_BUILD_EPOCH` is populated as `new Date().getTime()` at build time
 - Vitest unit + component tests with code coverage
-- (⚠️NOT TESTED) GitHub workflows
-  - Renovatebot for keeping up with dependencies
-  - Automated unit + component tests
-  - Automated e2e tests
-  - Coverage reporting in PR comments
