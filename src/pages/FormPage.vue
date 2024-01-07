@@ -16,17 +16,20 @@ const formSchema = {
     {
       label: "Email Address",
       type: "email",
+      model: "email",
       placeholder: "john@example.com",
       required: true,
     },
     {
       label: "Subscribe to Newsletter",
       type: "checkbox",
+      model: "subscribeTo",
       description: "Receive updates and special offers",
     },
     {
       label: "Select Country",
       type: "select",
+      model: "country",
       required: true,
       options: [
         {
@@ -50,6 +53,7 @@ const formSchema = {
     {
       label: "Terms and Conditions",
       type: "checkbox",
+      model: "readT&C",
       required: true,
       description: "I accept the terms and conditions",
     },
